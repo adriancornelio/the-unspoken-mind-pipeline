@@ -1,0 +1,26 @@
+{
+  "id": "script-003",
+  "topic_lane": "body_language",
+  "hook": "Their body is secretly {leaking the truth} right now.",
+  "subhook": "Here is how to read them.",
+  "points": [
+    {
+      "label": "01",
+      "text": "Feet pointing toward the door reveal a hidden desire to {leave the room}.",
+      "highlight": "leave the room"
+    },
+    {
+      "label": "02",
+      "text": "Tight, pressed lips instantly signal that someone is {holding back} vital information.",
+      "highlight": "holding back"
+    },
+    {
+      "label": "03",
+      "text": "A sudden burst of blinking exposes {hidden mental stress} in real time.",
+      "highlight": "hidden mental stress"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-the-journey-79.mp3"
+}

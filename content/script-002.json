@@ -1,0 +1,26 @@
+{
+  "id": "script-002",
+  "topic_lane": "persuasion",
+  "hook": "Master negotiators use one subtle trick to {steer your choices}.",
+  "subhook": "And you never notice it.",
+  "points": [
+    {
+      "label": "01",
+      "text": "Presenting a terrible option first makes the real offer feel like {a total steal}.",
+      "highlight": "a total steal"
+    },
+    {
+      "label": "02",
+      "text": "Offering an unasked favor creates immediate psychological pressure to {pay them back}.",
+      "highlight": "pay them back"
+    },
+    {
+      "label": "03",
+      "text": "Setting a fake deadline forces your brain to bypass logic and {act on impulse}.",
+      "highlight": "act on impulse"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-pondering-383.mp3"
+}
