@@ -6,6 +6,9 @@ on:
     # so this uses day-of-month-is-even as a simple approximation — adjust as needed.
     - cron: '0 14 */2 * *'
   workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+  
+permissions:
+  contents: write
 
 jobs:
   generate-and-render:
@@ -31,10 +34,16 @@ jobs:
           MUSIC_FOLDER_ID: ${{ secrets.MUSIC_FOLDER_ID }}
         run: node scripts/run_pipeline.mjs
 
+      - name: Determine this run's script id
+        id: scriptid
+        run: |
+          INDEX=$(node -e "console.log(String(require('./content/state.json').videoIndex).padStart(3,'0'))")
+          echo "index=$INDEX" >> "$GITHUB_OUTPUT"
+
       - name: Upload rendered video as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: rendered-reel
+          name: rendered-reel-${{ steps.scriptid.outputs.index }}
           path: out/*.mp4
           retention-days: 14
 

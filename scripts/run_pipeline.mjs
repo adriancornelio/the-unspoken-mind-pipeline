@@ -39,11 +39,41 @@ async function main() {
 	}
 
 	console.log('\n=== Step 3: Render video ===');
+	const rawFile = path.join(ROOT, 'out', `${scriptId}-raw.mp4`);
 	const outFile = path.join(ROOT, 'out', `${scriptId}.mp4`);
 	run(
-		`npx remotion render src/index.ts Reel "${outFile}" --props="${scriptPath}" --codec=h264`,
+		`npx remotion render src/index.ts Reel "${rawFile}" --props="${scriptPath}" --codec=h264`,
 		{ cwd: ROOT }
 	);
+
+	console.log('\n=== Step 3b: Fade audio to silence at the ending (ffmpeg post-process) ===');
+	// Remotion's per-frame JS volume automation reliably fades an entire clip,
+	// but under-samples a fade confined to a short tail on longer renders — the
+	// sharp late change gets smoothed away almost entirely (verified directly:
+	// a full-clip fade measured a clean ~6dB drop across the render; the same
+	// math confined to the last 0.8s of a 23s clip measured under 0.5dB of
+	// change — not a real fade). ffmpeg's own afade filter is sample-accurate
+	// and is the standard tool for exactly this, so the fade is applied here
+	// as a post-process instead of relying on Remotion's audio automation.
+	// Video stream is copied untouched (-c:v copy) — only audio is touched.
+	const durationOutput = run(
+		`ffprobe -v quiet -show_entries format=duration -of csv=p=0 "${rawFile}"`,
+		{ cwd: ROOT }
+	);
+	const durationSeconds = parseFloat(durationOutput.trim());
+	const FADE_SECONDS = 0.8; // within the requested 0.6-1.0s range
+	const fadeStart = Math.max(0, durationSeconds - FADE_SECONDS);
+
+	if (script.audioFile) {
+		run(
+			`ffmpeg -y -i "${rawFile}" -af "afade=t=out:st=${fadeStart}:d=${FADE_SECONDS}" -c:v copy -c:a aac "${outFile}"`,
+			{ cwd: ROOT }
+		);
+		fs.unlinkSync(rawFile);
+	} else {
+		// No audio track at all (manual-mix workflow) — nothing to fade, just rename.
+		fs.renameSync(rawFile, outFile);
+	}
 
 	console.log(`\nDone. Rendered: ${outFile}`);
 	console.log('\n=== Step 4: Upload to YouTube ===');

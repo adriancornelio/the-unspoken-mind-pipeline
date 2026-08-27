@@ -605,6 +605,33 @@ const Grain: React.FC = () => (
 	/>
 );
 
+// Smooth fade to black over the last ENDING_FADE_SECONDS of the whole video,
+// so the ending lands rather than cutting hard. Sits above everything else.
+const ENDING_FADE_SECONDS = 0.8; // within the requested 0.6-1.0s range
+
+const EndFade: React.FC<{totalDurationInFrames: number; fps: number}> = ({totalDurationInFrames, fps}) => {
+	const frame = useCurrentFrame();
+	const fadeFrames = Math.round(ENDING_FADE_SECONDS * fps);
+	const fadeStart = totalDurationInFrames - fadeFrames;
+	const opacity = interpolate(frame, [fadeStart, totalDurationInFrames], [0, 1], {
+		extrapolateLeft: 'clamp',
+		extrapolateRight: 'clamp',
+	});
+	return <AbsoluteFill style={{background: '#000000', opacity, pointerEvents: 'none'}} />;
+};
+
+// Audio volume curve: steady at the normal level, then eases down to silence
+// across the same ENDING_FADE_SECONDS window as the visual fade, so picture
+// and sound land together instead of the music cutting off abruptly.
+// Audio volume: kept constant here. Remotion's per-frame JS volume automation
+// (tested extensively) reliably captures a fade spanning the ENTIRE clip, but
+// under-samples/smooths away a fade confined to a short tail on longer clips —
+// the sharp late change gets diluted into a barely-there overall slope instead
+// of a real fade-to-silence. The actual audio fade-out is applied as a
+// post-processing ffmpeg step in run_pipeline.mjs instead, which is
+// sample-accurate and standard for exactly this. Kept as a plain constant here
+// so this file doesn't imply an audio fade that isn't really happening.
+
 function computeTiming(script: ReelScript, fps: number) {
 	const hookChunks = chunkize(script.hook);
 	const {endFrame: hookRevealFrames} = computeChunkStarts(hookChunks, fps);
@@ -671,6 +698,7 @@ export const Reel: React.FC<{script: ReelScript}> = ({script}) => {
 			<Vignette />
 			<Grain />
 			<ProgressBar totalDurationInFrames={timing.total} />
+			<EndFade totalDurationInFrames={timing.total} fps={fps} />
 		</AbsoluteFill>
 	);
 };
