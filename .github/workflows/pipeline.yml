@@ -6,6 +6,9 @@ on:
     # so this uses day-of-month-is-even as a simple approximation — adjust as needed.
     - cron: '0 14 */2 * *'
   workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+  
+permissions:
+  contents: write
 
 jobs:
   generate-and-render:
