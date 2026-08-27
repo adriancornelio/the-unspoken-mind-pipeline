@@ -1,0 +1,26 @@
+{
+  "id": "script-004",
+  "topic_lane": "cognitive_biases",
+  "hook": "Stores use a simple trick to {control your spending}.",
+  "subhook": "Here is how anchoring secretly controls you.",
+  "points": [
+    {
+      "label": "01",
+      "text": "They show an inflated original price first to {anchor your brain}.",
+      "highlight": "anchor your brain"
+    },
+    {
+      "label": "02",
+      "text": "Any lower price suddenly feels like an {unbeatable bargain}.",
+      "highlight": "unbeatable bargain"
+    },
+    {
+      "label": "03",
+      "text": "You buy the item, completely unaware your judgment was {quietly hijacked}.",
+      "highlight": "quietly hijacked"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-vastness-184.mp3"
+}
