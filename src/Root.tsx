@@ -16,16 +16,22 @@ export const RemotionRoot: React.FC = () => {
 		<Composition
 			id="Reel"
 			component={Reel}
-			// calculateMetadata lets duration adjust to whatever script is passed via --props
+			// calculateMetadata lets duration adjust to whatever script is passed via --props.
+			// NOTE: props here ARE the script directly (flat shape) — every script-XXX.json
+			// file written by generate_script.mjs is flat, not nested under a "script" key,
+			// and --props injects that file's content as the top-level props object. An
+			// earlier version of this file expected props.script, which was always undefined
+			// for real pipeline runs and silently fell back to script-001 every time.
 			calculateMetadata={async ({props}) => {
-				const s = (props.script || typed) as ReelScript;
+				const hasContent = props && Object.keys(props).length > 0;
+				const s = (hasContent ? props : typed) as ReelScript;
 				return {durationInFrames: getReelDurationInFrames(s, FPS)};
 			}}
 			durationInFrames={getReelDurationInFrames(typed, FPS)}
 			fps={FPS}
 			width={WIDTH}
 			height={HEIGHT}
-			defaultProps={{script: typed}}
+			defaultProps={typed}
 		/>
 	);
 };

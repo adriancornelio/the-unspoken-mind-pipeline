@@ -620,9 +620,6 @@ const EndFade: React.FC<{totalDurationInFrames: number; fps: number}> = ({totalD
 	return <AbsoluteFill style={{background: '#000000', opacity, pointerEvents: 'none'}} />;
 };
 
-// Audio volume curve: steady at the normal level, then eases down to silence
-// across the same ENDING_FADE_SECONDS window as the visual fade, so picture
-// and sound land together instead of the music cutting off abruptly.
 // Audio volume: kept constant here. Remotion's per-frame JS volume automation
 // (tested extensively) reliably captures a fade spanning the ENTIRE clip, but
 // under-samples/smooths away a fade confined to a short tail on longer clips —
@@ -668,7 +665,7 @@ function computeTiming(script: ReelScript, fps: number) {
 	return {hookDur, pointDurs, ctaDur, hookStart, pointStarts, ctaStart, total: cursor};
 }
 
-export const Reel: React.FC<{script: ReelScript}> = ({script}) => {
+export const Reel: React.FC<ReelScript> = (script) => {
 	const {fps} = useVideoConfig();
 	const timing = computeTiming(script, fps);
 
