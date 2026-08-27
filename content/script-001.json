@@ -1,0 +1,26 @@
+{
+  "id": "script-001",
+  "topic_lane": "dark_psychology",
+  "hook": "Someone is quietly {controlling your decisions} right now.",
+  "subhook": "Here is how to spot it.",
+  "points": [
+    {
+      "label": "01",
+      "text": "When someone offers two bad options, they are using a {false dilemma} to force compliance.",
+      "highlight": "false dilemma"
+    },
+    {
+      "label": "02",
+      "text": "If they over-explain your tiny mistake, they are using {weaponized guilt} against your confidence.",
+      "highlight": "weaponized guilt"
+    },
+    {
+      "label": "03",
+      "text": "Counter them by demanding time, which completely breaks their artificial {forced urgency}.",
+      "highlight": "forced urgency"
+    }
+  ],
+  "cta": "Follow \u2014 The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-vastness-184.mp3"
+}
