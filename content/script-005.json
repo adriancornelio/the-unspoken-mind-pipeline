@@ -1,0 +1,26 @@
+{
+  "id": "script-005",
+  "topic_lane": "attachment",
+  "hook": "Your brain is addicted to {people who pull away}.",
+  "subhook": "Here is the hidden mechanism.",
+  "points": [
+    {
+      "label": "01",
+      "text": "Avoidant responses create an intermittent reward cycle, triggering a real {dopamine addiction}.",
+      "highlight": "dopamine addiction"
+    },
+    {
+      "label": "02",
+      "text": "You confuse the anxiety of emotional uncertainty with a {genuine spark}.",
+      "highlight": "genuine spark"
+    },
+    {
+      "label": "03",
+      "text": "Secure partners feel boring because your brain mistakes safety for a {lack of passion}.",
+      "highlight": "lack of passion"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-zanarkand-forest-169.mp3"
+}
