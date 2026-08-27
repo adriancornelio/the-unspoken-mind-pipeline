@@ -1,0 +1,26 @@
+{
+  "id": "script-006",
+  "topic_lane": "dark_psychology",
+  "hook": "Someone uses {forced favors} to secretly control your choices.",
+  "subhook": "Here is how to spot it.",
+  "points": [
+    {
+      "label": "01",
+      "text": "First, they offer unrequested help to create an {unspoken debt} you never agreed to.",
+      "highlight": "unspoken debt"
+    },
+    {
+      "label": "02",
+      "text": "Next, they pair urgent demands with slight guilt to trigger {impulsive compliance}.",
+      "highlight": "impulsive compliance"
+    },
+    {
+      "label": "03",
+      "text": "Break the loop by pausing before responding to strip away their {emotional leverage}.",
+      "highlight": "emotional leverage"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-pondering-383.mp3"
+}
