@@ -1,0 +1,26 @@
+{
+  "id": "script-007",
+  "topic_lane": "persuasion",
+  "hook": "Master negotiators use three hidden triggers to {control your choices}.",
+  "subhook": "Here is how they do it.",
+  "points": [
+    {
+      "label": "01",
+      "text": "They set an extreme anchor to make the real price feel like {a massive discount}.",
+      "highlight": "a massive discount"
+    },
+    {
+      "label": "02",
+      "text": "Giving you a small concession forces your brain to {return the favor}.",
+      "highlight": "return the favor"
+    },
+    {
+      "label": "03",
+      "text": "Triggering artificial urgency instantly overrides your ability to {think critically}.",
+      "highlight": "think critically"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-the-journey-79.mp3"
+}
