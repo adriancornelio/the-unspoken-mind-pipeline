@@ -1,0 +1,26 @@
+{
+  "id": "script-008",
+  "topic_lane": "body_language",
+  "hook": "People constantly broadcast their hidden motives through {accidental micro-signals}.",
+  "subhook": "Here is what to look for.",
+  "points": [
+    {
+      "label": "01",
+      "text": "When someone touches their neck, they are trying to {soothe hidden stress}.",
+      "highlight": "soothe hidden stress"
+    },
+    {
+      "label": "02",
+      "text": "A real smile always forces the outer eye muscles to {tighten automatically}.",
+      "highlight": "tighten automatically"
+    },
+    {
+      "label": "03",
+      "text": "If someone points their feet away, they have mentally {already checked out}.",
+      "highlight": "already checked out"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-vastness-184.mp3"
+}
