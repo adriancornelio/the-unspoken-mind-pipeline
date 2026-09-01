@@ -1,0 +1,26 @@
+{
+  "id": "script-009",
+  "topic_lane": "cognitive_biases",
+  "hook": "Stores use a sneaky price trick to {control what you spend}.",
+  "subhook": "It works every single time.",
+  "points": [
+    {
+      "label": "01",
+      "text": "The first number you see mentally {anchors your expectations} for everything after.",
+      "highlight": "anchors your expectations"
+    },
+    {
+      "label": "02",
+      "text": "A fake original price makes the actual cost feel like an {irresistible steal}.",
+      "highlight": "irresistible steal"
+    },
+    {
+      "label": "03",
+      "text": "You think you saved money, but your brain just got {quietly hacked}.",
+      "highlight": "quietly hacked"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-zanarkand-forest-169.mp3"
+}
