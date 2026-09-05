@@ -1,0 +1,26 @@
+{
+  "id": "script-010",
+  "topic_lane": "attachment",
+  "hook": "People don't run from intimacy, they run from {losing their control}.",
+  "subhook": "Here is how avoidance actually works.",
+  "points": [
+    {
+      "label": "01",
+      "text": "Avoidants pull back to {restore control} when emotional intensity gets too high for them.",
+      "highlight": "restore control"
+    },
+    {
+      "label": "02",
+      "text": "Chasing an avoidant triggers their {survival instinct}, forcing them to shut down entirely.",
+      "highlight": "survival instinct"
+    },
+    {
+      "label": "03",
+      "text": "Giving calm space without punishment is the only way to {build real safety}.",
+      "highlight": "build real safety"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-pondering-383.mp3"
+}
