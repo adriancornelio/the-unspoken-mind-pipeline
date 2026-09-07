@@ -1,0 +1,26 @@
+{
+  "id": "script-011",
+  "topic_lane": "dark_psychology",
+  "hook": "People use this subtle trick to {steal your choices} without asking.",
+  "subhook": "Here is how to catch them.",
+  "points": [
+    {
+      "label": "01",
+      "text": "They limit your options so you {feel in control} while choosing their path.",
+      "highlight": "feel in control"
+    },
+    {
+      "label": "02",
+      "text": "They give unasked favors to create an instant {psychological debt}.",
+      "highlight": "psychological debt"
+    },
+    {
+      "label": "03",
+      "text": "To break the spell, name the tactic out loud and {stay completely silent}.",
+      "highlight": "stay completely silent"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-the-journey-79.mp3"
+}
