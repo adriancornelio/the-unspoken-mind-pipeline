@@ -1,0 +1,26 @@
+{
+  "id": "script-012",
+  "topic_lane": "persuasion",
+  "hook": "Master negotiators never argue, they quietly {frame the choices}.",
+  "subhook": "Here is how they win.",
+  "points": [
+    {
+      "label": "01",
+      "text": "Set an extreme anchor first so your actual demand feels like a {massive discount}.",
+      "highlight": "massive discount"
+    },
+    {
+      "label": "02",
+      "text": "Give away a small meaningless favor to create an {unspoken psychological debt}.",
+      "highlight": "unspoken psychological debt"
+    },
+    {
+      "label": "03",
+      "text": "Limit their decision window because fear of loss triggers {faster compliance}.",
+      "highlight": "faster compliance"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-vastness-184.mp3"
+}
