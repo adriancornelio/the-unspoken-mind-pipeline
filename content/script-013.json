@@ -1,0 +1,26 @@
+{
+  "id": "script-013",
+  "topic_lane": "body_language",
+  "hook": "Your body is constantly {leaking your secrets}.",
+  "subhook": "Here is how to read them.",
+  "points": [
+    {
+      "label": "01",
+      "text": "When someone points their feet away, they subconsciously {want to leave}.",
+      "highlight": "want to leave"
+    },
+    {
+      "label": "02",
+      "text": "A sudden spike in blinking means their brain is {processing a lie}.",
+      "highlight": "processing a lie"
+    },
+    {
+      "label": "03",
+      "text": "An asymmetrical smile is rarely warmth, it is a flash of {hidden contempt}.",
+      "highlight": "hidden contempt"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-zanarkand-forest-169.mp3"
+}
