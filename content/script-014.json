@@ -1,0 +1,26 @@
+{
+  "id": "script-014",
+  "topic_lane": "cognitive_biases",
+  "hook": "Your brain is trapped by the {first number you see}.",
+  "subhook": "And marketers exploit it daily.",
+  "points": [
+    {
+      "label": "01",
+      "text": "An overpriced menu item makes the second dish feel like a {cheap bargain}.",
+      "highlight": "cheap bargain"
+    },
+    {
+      "label": "02",
+      "text": "Initial salary offers secretly set the ceiling for your {entire negotiation}.",
+      "highlight": "entire negotiation"
+    },
+    {
+      "label": "03",
+      "text": "Inflated original prices make normal discounts feel like {guaranteed wins}.",
+      "highlight": "guaranteed wins"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-pondering-383.mp3"
+}
