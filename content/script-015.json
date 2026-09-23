@@ -1,0 +1,26 @@
+{
+  "id": "script-015",
+  "topic_lane": "attachment",
+  "hook": "Your brain naturally {chases emotional distance} in relationships.",
+  "subhook": "Here is why chaos feels like love.",
+  "points": [
+    {
+      "label": "01",
+      "text": "Anxious minds mistake unpredictable behavior for {deep passion}.",
+      "highlight": "deep passion"
+    },
+    {
+      "label": "02",
+      "text": "Avoidant partners retreat the exact moment intimacy triggers {their core fear}.",
+      "highlight": "their core fear"
+    },
+    {
+      "label": "03",
+      "text": "Healing starts when you choose quiet security over {addictive emotional drama}.",
+      "highlight": "addictive emotional drama"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-the-journey-79.mp3"
+}
