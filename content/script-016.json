@@ -1,0 +1,26 @@
+{
+  "id": "script-016",
+  "topic_lane": "dark_psychology",
+  "hook": "Someone is using {hidden psychological traps} against you every day.",
+  "subhook": "Here is how you spot them.",
+  "points": [
+    {
+      "label": "01",
+      "text": "When they {shift the goalposts}, lock your focus on the original agreement immediately.",
+      "highlight": "shift the goalposts"
+    },
+    {
+      "label": "02",
+      "text": "If an unrequested favor creates unexpected obligation, reject the {manufactured debt} instantly.",
+      "highlight": "manufactured debt"
+    },
+    {
+      "label": "03",
+      "text": "They use {artificial urgency} to force mistakes, so pause before giving any answer.",
+      "highlight": "artificial urgency"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-vastness-184.mp3"
+}
