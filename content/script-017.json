@@ -1,0 +1,26 @@
+{
+  "id": "script-017",
+  "topic_lane": "persuasion",
+  "hook": "Master negotiators never ask for {what they actually want} first.",
+  "subhook": "Here is how they trick your brain.",
+  "points": [
+    {
+      "label": "01",
+      "text": "First, they make an extreme request designed specifically to make you {say no}.",
+      "highlight": "say no"
+    },
+    {
+      "label": "02",
+      "text": "Then, they scale back to their real goal so it feels like a {generous compromise}.",
+      "highlight": "generous compromise"
+    },
+    {
+      "label": "03",
+      "text": "Your brain mistakes their calculated retreat for kindness, making you {instantly agree}.",
+      "highlight": "instantly agree"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-zanarkand-forest-169.mp3"
+}
