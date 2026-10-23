@@ -1,0 +1,26 @@
+{
+  "id": "script-018",
+  "topic_lane": "body_language",
+  "hook": "Your brain leaks the truth through {tiny physical glitches}.",
+  "subhook": "Here is how to read them.",
+  "points": [
+    {
+      "label": "01",
+      "text": "Touching the neck isn't nervousness; it's an active {brain-soothing mechanism} under pressure.",
+      "highlight": "brain-soothing mechanism"
+    },
+    {
+      "label": "02",
+      "text": "Feet pointing away during conversation mean their mind has already {left the room}.",
+      "highlight": "left the room"
+    },
+    {
+      "label": "03",
+      "text": "A real smile contracts the eyes, while fake ones only {move the mouth}.",
+      "highlight": "move the mouth"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-the-journey-79.mp3"
+}
