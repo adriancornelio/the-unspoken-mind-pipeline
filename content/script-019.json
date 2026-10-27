@@ -1,0 +1,26 @@
+{
+  "id": "script-019",
+  "topic_lane": "cognitive_biases",
+  "hook": "Stores are quietly using {the anchoring effect} on you every day.",
+  "subhook": "And you never even notice.",
+  "points": [
+    {
+      "label": "01",
+      "text": "A fake original price makes the discount feel like {a massive victory}.",
+      "highlight": "a massive victory"
+    },
+    {
+      "label": "02",
+      "text": "The first salary offer quietly {sets your ceiling} for every future raise.",
+      "highlight": "sets your ceiling"
+    },
+    {
+      "label": "03",
+      "text": "Your mind relies on initial information because it {hates extra effort}.",
+      "highlight": "hates extra effort"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-zanarkand-forest-169.mp3"
+}
