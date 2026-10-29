@@ -1,0 +1,26 @@
+{
+  "id": "script-020",
+  "topic_lane": "attachment",
+  "hook": "Your brain secretly panics when someone starts {treating you right}.",
+  "subhook": "The hidden logic of attachment.",
+  "points": [
+    {
+      "label": "01",
+      "text": "Early instability makes your nervous system misinterpret emotional safety as {an impending threat}.",
+      "highlight": "an impending threat"
+    },
+    {
+      "label": "02",
+      "text": "You pull away to regain control before they inevitably {abandon you first}.",
+      "highlight": "abandon you first"
+    },
+    {
+      "label": "03",
+      "text": "Spotting this pattern is the only way to break your {self-sabotage loop}.",
+      "highlight": "self-sabotage loop"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-pondering-383.mp3"
+}
