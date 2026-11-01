@@ -1,0 +1,26 @@
+{
+  "id": "script-021",
+  "topic_lane": "dark_psychology",
+  "hook": "Manipulators use this tactic to {hijack your empathy} instantly.",
+  "subhook": "Here is how to break free.",
+  "points": [
+    {
+      "label": "01",
+      "text": "First, they share a vulnerable secret to force {instant intimacy} from you.",
+      "highlight": "instant intimacy"
+    },
+    {
+      "label": "02",
+      "text": "This trick makes your brain feel obligated to {reciprocate deep trust}.",
+      "highlight": "reciprocate deep trust"
+    },
+    {
+      "label": "03",
+      "text": "Counter it by responding with polite interest while keeping boundaries {completely intact}.",
+      "highlight": "completely intact"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-the-journey-79.mp3"
+}
