@@ -1,0 +1,26 @@
+{
+  "id": "script-022",
+  "topic_lane": "persuasion",
+  "hook": "Someone is using {hidden psychological anchors} to control you.",
+  "subhook": "Here is how to spot it.",
+  "points": [
+    {
+      "label": "01",
+      "text": "They request a massive favor first, making their real ask feel {effortlessly small}.",
+      "highlight": "effortlessly small"
+    },
+    {
+      "label": "02",
+      "text": "An unearned favor creates an instant debt you are {hardwired to repay}.",
+      "highlight": "hardwired to repay"
+    },
+    {
+      "label": "03",
+      "text": "Framing choices around potential loss forces your mind into {impulsive compliance}.",
+      "highlight": "impulsive compliance"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-zanarkand-forest-169.mp3"
+}
