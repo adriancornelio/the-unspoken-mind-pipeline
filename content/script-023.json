@@ -1,0 +1,26 @@
+{
+  "id": "script-023",
+  "topic_lane": "body_language",
+  "hook": "People unconsciously reveal their {true intentions} in milliseconds.",
+  "subhook": "Three cues you should never ignore.",
+  "points": [
+    {
+      "label": "01",
+      "text": "Feet angled toward the exit mean their mind has {already left} the conversation.",
+      "highlight": "already left"
+    },
+    {
+      "label": "02",
+      "text": "A rapid eyebrow flash signals instant {unconscious recognition} or genuine interest.",
+      "highlight": "unconscious recognition"
+    },
+    {
+      "label": "03",
+      "text": "Touching the neck collar area is an instinctual attempt to soothe {hidden stress}.",
+      "highlight": "hidden stress"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-pondering-383.mp3"
+}
