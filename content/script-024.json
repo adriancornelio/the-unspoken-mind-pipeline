@@ -1,0 +1,26 @@
+{
+  "id": "script-024",
+  "topic_lane": "cognitive_biases",
+  "hook": "Stores use a hidden number to {manipulate your spending}.",
+  "subhook": "It works before you notice the price.",
+  "points": [
+    {
+      "label": "01",
+      "text": "The first price you see acts as an {invisible anchor} for your brain.",
+      "highlight": "invisible anchor"
+    },
+    {
+      "label": "02",
+      "text": "Marketers set inflated original prices so discounts feel like {an easy win}.",
+      "highlight": "an easy win"
+    },
+    {
+      "label": "03",
+      "text": "You judge value based on comparison rather than {actual true worth}.",
+      "highlight": "actual true worth"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-the-journey-79.mp3"
+}
