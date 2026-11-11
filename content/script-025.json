@@ -1,0 +1,26 @@
+{
+  "id": "script-025",
+  "topic_lane": "attachment",
+  "hook": "Your brain confuses toxic anxiety with {true romantic connection}.",
+  "subhook": "Here is why that happens.",
+  "points": [
+    {
+      "label": "01",
+      "text": "Anxious attachment mistakes emotional unpredictability for {intense passion}.",
+      "highlight": "intense passion"
+    },
+    {
+      "label": "02",
+      "text": "Avoidants pull away the second you demand {vulnerable intimacy}.",
+      "highlight": "vulnerable intimacy"
+    },
+    {
+      "label": "03",
+      "text": "Safe partners feel boring because your nervous system craves {familiar chaos}.",
+      "highlight": "familiar chaos"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-zanarkand-forest-169.mp3"
+}
