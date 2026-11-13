@@ -1,0 +1,26 @@
+{
+  "id": "script-026",
+  "topic_lane": "dark_psychology",
+  "hook": "Manipulators use one subtle trick to {rewrite your reality}.",
+  "subhook": "Here is how to spot it.",
+  "points": [
+    {
+      "label": "01",
+      "text": "They use {forced empathy} to make you feel guilty for setting basic boundaries.",
+      "highlight": "forced empathy"
+    },
+    {
+      "label": "02",
+      "text": "Then they slightly {alter past events} until you doubt your own memory.",
+      "highlight": "alter past events"
+    },
+    {
+      "label": "03",
+      "text": "To break free, immediately {demand written proof} whenever they question your sanity.",
+      "highlight": "demand written proof"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-pondering-383.mp3"
+}
