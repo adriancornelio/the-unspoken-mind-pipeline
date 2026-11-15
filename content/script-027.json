@@ -1,0 +1,26 @@
+{
+  "id": "script-027",
+  "topic_lane": "persuasion",
+  "hook": "You agree to big requests by rejecting {even bigger ones} first.",
+  "subhook": "The hidden physics of negotiation.",
+  "points": [
+    {
+      "label": "01",
+      "text": "When someone retreats from a massive ask, your brain feels obligated to {meet halfway}.",
+      "highlight": "meet halfway"
+    },
+    {
+      "label": "02",
+      "text": "The initial outrageous offer exists solely to make the real target look like a {total steal}.",
+      "highlight": "total steal"
+    },
+    {
+      "label": "03",
+      "text": "You feel like you won the deal, but you actually walked directly into {their trap}.",
+      "highlight": "their trap"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-the-journey-79.mp3"
+}
