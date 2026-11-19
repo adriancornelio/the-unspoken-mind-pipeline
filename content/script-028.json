@@ -1,0 +1,26 @@
+{
+  "id": "script-028",
+  "topic_lane": "body_language",
+  "hook": "People leak their true intentions through {three silent cues}.",
+  "subhook": "Here is how to read them.",
+  "points": [
+    {
+      "label": "01",
+      "text": "Their feet always point toward the {person they want} most.",
+      "highlight": "person they want"
+    },
+    {
+      "label": "02",
+      "text": "A rapid surge in blinking signals {hidden nervous stress}.",
+      "highlight": "hidden nervous stress"
+    },
+    {
+      "label": "03",
+      "text": "Touching their own neck is a desperate attempt to {soothe rising anxiety}.",
+      "highlight": "soothe rising anxiety"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-zanarkand-forest-169.mp3"
+}
