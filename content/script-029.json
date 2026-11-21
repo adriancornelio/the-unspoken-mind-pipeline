@@ -1,0 +1,26 @@
+{
+  "id": "script-029",
+  "topic_lane": "cognitive_biases",
+  "hook": "Your brain is secretly {fooled by first numbers}.",
+  "subhook": "Here is how stores hijack you.",
+  "points": [
+    {
+      "label": "01",
+      "text": "A fake original price makes any discount feel like a {total steal}.",
+      "highlight": "total steal"
+    },
+    {
+      "label": "02",
+      "text": "Negotiators drop extreme first numbers to {anchor your expectations} instantly.",
+      "highlight": "anchor your expectations"
+    },
+    {
+      "label": "03",
+      "text": "Expensive top menu items make medium prices feel like {unbeatable bargains}.",
+      "highlight": "unbeatable bargains"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-pondering-383.mp3"
+}
