@@ -1,0 +1,26 @@
+{
+  "id": "script-030",
+  "topic_lane": "attachment",
+  "hook": "Your brain often confuses {toxic instability} with genuine chemistry.",
+  "subhook": "Here is why you fall for avoidants.",
+  "points": [
+    {
+      "label": "01",
+      "text": "Avoidant partners pull back right when {intimacy feels real}.",
+      "highlight": "intimacy feels real"
+    },
+    {
+      "label": "02",
+      "text": "This sudden distance triggers an addictive {dopamine withdrawal loop}.",
+      "highlight": "dopamine withdrawal loop"
+    },
+    {
+      "label": "03",
+      "text": "You mistake that panic for love because your {nervous system craves} chaos.",
+      "highlight": "nervous system craves"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-the-journey-79.mp3"
+}
