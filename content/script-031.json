@@ -1,0 +1,26 @@
+{
+  "id": "script-031",
+  "topic_lane": "dark_psychology",
+  "hook": "Subtle manipulators use {forced reciprocity} to trap you.",
+  "subhook": "Here is how to spot it.",
+  "points": [
+    {
+      "label": "01",
+      "text": "They give you an unsolicited favor to make you feel {deeply indebted}.",
+      "highlight": "deeply indebted"
+    },
+    {
+      "label": "02",
+      "text": "Soon after, they ask for something that {violates your boundaries}.",
+      "highlight": "violates your boundaries"
+    },
+    {
+      "label": "03",
+      "text": "Neutralize it instantly by accepting gifts with {zero unspoken obligations}.",
+      "highlight": "zero unspoken obligations"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-zanarkand-forest-169.mp3"
+}
