@@ -1,0 +1,26 @@
+{
+  "id": "script-032",
+  "topic_lane": "persuasion",
+  "hook": "People use {unspoken debt} to force your agreement.",
+  "subhook": "Here is how to spot it.",
+  "points": [
+    {
+      "label": "01",
+      "text": "They give you a {small favor} before making their real request.",
+      "highlight": "small favor"
+    },
+    {
+      "label": "02",
+      "text": "Your brain automatically tries to {balance the scale} right away.",
+      "highlight": "balance the scale"
+    },
+    {
+      "label": "03",
+      "text": "To stay in control, label their gift as {a tactical bribe}.",
+      "highlight": "a tactical bribe"
+    }
+  ],
+  "cta": "Follow — The Unspoken Mind",
+  "target_seconds": 22,
+  "audioFile": "mixkit-pondering-383.mp3"
+}
